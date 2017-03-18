@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".StudentSupport" >
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="matrix"
+        android:src="@drawable/ace_logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageLogo"
+        android:background="#707070"
+        android:gravity="center"
+        android:text="What Student Support is Available?"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/ednapier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ednapier" />
+
+    <Button
+        android:id="@+id/btnCareers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:background="#E0E0E0"
+        android:minHeight="16dp"
+        android:text="Careers"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button03"
+        android:background="#707070"
+        android:minHeight="16dp"
+        android:text="Disability and Inclusion"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button04"
+        android:background="#E0E0E0"
+        android:minHeight="16dp"
+        android:text="Exchanges"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button06"
+        android:background="#E0E0E0"
+        android:minHeight="16dp"
+        android:text="Money"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button07"
+        android:background="#707070"
+        android:minHeight="16dp"
+        android:text="Napier Students Association (NSA)"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button08"
+        android:background="#E0E0E0"
+        android:minHeight="16dp"
+        android:text="Personal Development Tutor (PDT)"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnSHub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button09"
+        android:background="#707070"
+        android:minHeight="16dp"
+        android:text="Student Hub"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button05"
+        android:background="#707070"
+        android:minHeight="16dp"
+        android:text="IT"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button12"
+        android:background="#E0E0E0"
+        android:minHeight="16dp"
+        android:text="Library"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button11"
+        android:background="#707070"
+        android:minHeight="16dp"
+        android:text="Mentoring"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="Edinburgh Napier provides various support services to students to guide them through their studies." />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="12dp"
+        android:background="#707070"
+        android:minHeight="16dp"
+        android:text="Academic Skills"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnCareers"
+        android:background="#707070"
+        android:minHeight="16dp"
+        android:text="Confident Futures"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button02"
+        android:background="#E0E0E0"
+        android:minHeight="16dp"
+        android:text="Consuelling and Mental Wellbeing"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
